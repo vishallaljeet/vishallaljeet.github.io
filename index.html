@@ -366,7 +366,7 @@
     </div>
     <div class="location-line">
       <span class="dot-live"></span>
-      Relocating to Calgary, AB — Canadian PR — available from September 2026
+      Relocating to Canada — Canadian PR — available from October 2026
     </div>
   </section>
 
@@ -376,37 +376,55 @@
     <div class="role-block">
       <div class="role-head">
         <div>
-          <span class="role-title">Principal DevOps / Platform Architect</span>
-          <span class="role-org"> · Nomura</span>
+          <span class="role-title">Principal Platform Engineer</span>
+          <span class="role-org"> · Nomura (post-acquisition)</span>
         </div>
-        <span class="role-period">ADD DATES</span>
+        <span class="role-period">Oct 2023 – Present</span>
       </div>
       <ul>
-        <li>Led the end-to-end platform migration from Instinet (acquired by Nomura) covering GitLab, Nexus, Confluence, and monitoring tooling.</li>
-        <li>Personally migrated 20+ applications and enabled 60+ teams to self-serve their own migrations.</li>
-        <li>Reduced licensing and infrastructure costs significantly by consolidating and re-architecting the platform toolchain.</li>
-        <li>Built a personal Confluence Cloud MCP server (Python, FastMCP, six tools) connecting platform documentation directly to AI coding agents — with GitLab and Jira extensions in progress.</li>
+        <li>Adopted Terraform alongside Ansible within GitLab CI/CD pipelines to provision and manage infrastructure as code.</li>
+        <li>Built custom MCP servers integrating GitLab, Jira, and Confluence with AI coding assistants for automated issue triage, documentation lookup, and pipeline insights.</li>
+        <li>Led a 6-month, enterprise-wide migration of Instinet's GitLab, Jira, Confluence, and Nexus platforms to Nomura — personally migrated 20+ applications and built reusable templates that enabled 60+ teams to self-serve migration across 200+ applications, cutting licensing and infrastructure costs by ~50%.</li>
+        <li>Implemented GitLab Geo for disaster recovery, ensuring high availability and data replication across locations.</li>
+        <li>Improved a Java-based trading platform's build time across multiple regions from 80 minutes to ~5 minutes with a Gradle build cache node.</li>
       </ul>
     </div>
 
     <div class="role-block">
       <div class="role-head">
         <div>
-          <span class="role-title">Platform / DevOps Lead</span>
+          <span class="role-title">Platform Lead</span>
           <span class="role-org"> · Instinet (pre-acquisition)</span>
         </div>
-        <span class="role-period">ADD DATES</span>
+        <span class="role-period">May 2021 – Oct 2023</span>
       </div>
       <ul>
-        <li>Built the complete GitLab CI/CD pipeline from the ground up, later inherited and extended through the Nomura migration.</li>
+        <li>Automated GitLab deployment pipelines and configured GitLab Runners on Kubernetes with Helm, cutting manual errors by 80% and speeding up releases.</li>
+        <li>Migrated GitLab from a monolithic architecture to containerization with less than 10 minutes of downtime.</li>
+        <li>Removed 30+ redundant servers through an infrastructure consolidation strategy, cutting infrastructure costs by 62%.</li>
+      </ul>
+    </div>
+
+    <div class="role-block">
+      <div class="role-head">
+        <div>
+          <span class="role-title">Senior DevOps Engineer</span>
+          <span class="role-org"> · BNP Paribas India Solutions</span>
+        </div>
+        <span class="role-period">Oct 2018 – Mar 2021</span>
+      </div>
+      <ul>
+        <li>Core member of Insite DevOps, spearheading DevOps transformation and helping application teams adopt best practices.</li>
+        <li>Improved build and deployment efficiency by 40% through CloudBees Jenkins pipelines across Java, .NET, Angular, and Node projects.</li>
+        <li>Reduced system downtime by 30% via Blue-Green deployments and integrated Jira and Bitbucket into the Jenkins pipeline.</li>
       </ul>
     </div>
 
     <div class="prior-roles">
-      <div class="label">Earlier — ADD TITLES</div>
-      <div class="prior-row"><span>ADD TITLE</span><span class="org">BNP Paribas · ADD DATES</span></div>
-      <div class="prior-row"><span>ADD TITLE</span><span class="org">Capgemini · ADD DATES</span></div>
-      <div class="prior-row"><span>ADD TITLE</span><span class="org">Saint-Gobain · ADD DATES</span></div>
+      <div class="label">Earlier</div>
+      <div class="prior-row"><span>DevOps Engineer</span><span class="org">Propellum Infotech · Jun 2017 – Aug 2018</span></div>
+      <div class="prior-row"><span>Associate DevOps Consultant</span><span class="org">Capgemini India · May 2015 – Jul 2017</span></div>
+      <div class="prior-row"><span>Software Engineer</span><span class="org">Saint-Gobain India · Jan 2014 – May 2015</span></div>
     </div>
   </section>
 
@@ -441,11 +459,12 @@
 
     <div class="project">
       <div class="project-head">
-        <span class="project-title">GitLab CI/CD Pipeline — Instinet</span>
+        <span class="project-title">GitLab Automation &amp; Containerization</span>
         <span class="project-tag">CI/CD</span>
       </div>
-      <p>Designed and built the complete GitLab CI/CD pipeline used across engineering prior to the Nomura acquisition.</p>
-      <div class="stack">GitLab CI · Docker · Nexus Docker Registry</div>
+      <p>Automated GitLab deployment pipelines and configured GitLab Runners on Kubernetes with Helm, cutting manual errors by 80% and speeding up releases.</p>
+      <p>Migrated GitLab itself from a monolithic setup to containerized deployment with under 10 minutes of downtime, and implemented GitLab Geo for disaster recovery.</p>
+      <div class="stack">GitLab CI · Docker · Kubernetes · Helm</div>
     </div>
   </section>
 
@@ -455,42 +474,81 @@
       <div class="skill-group">
         <h3>Infrastructure as code</h3>
         <ul>
-          <li>Terraform (5+ years)</li>
+          <li>Terraform (HashiCorp Certified)</li>
           <li>Ansible</li>
-          <li>AWS (EC2, S3, EKS, IAM)</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>AI / DevOps automation</h3>
+        <ul>
+          <li>Custom MCP servers (GitLab, Jira, Confluence)</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Cloud (AWS)</h3>
+        <ul>
+          <li>EC2, EKS, Lambda, RDS</li>
+          <li>CloudFormation, IAM</li>
         </ul>
       </div>
       <div class="skill-group">
         <h3>Containers &amp; orchestration</h3>
         <ul>
-          <li>Kubernetes</li>
-          <li>Helm</li>
+          <li>Kubernetes &amp; Helm</li>
           <li>Docker</li>
         </ul>
       </div>
       <div class="skill-group">
         <h3>CI/CD &amp; platform tooling</h3>
         <ul>
-          <li>GitLab CI/CD</li>
-          <li>Nexus administration</li>
-          <li>Confluence Cloud</li>
+          <li>GitLab CI/CD, Jenkins, Bamboo</li>
+          <li>Nexus, Artifactory</li>
         </ul>
       </div>
       <div class="skill-group">
         <h3>Observability</h3>
         <ul>
           <li>Prometheus &amp; Grafana</li>
-          <li>OpenSearch / ELK</li>
+          <li>OpenSearch / ELK, Splunk</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Scripting &amp; languages</h3>
+        <ul>
+          <li>Python, Groovy, PowerShell, Shell</li>
+          <li>Java, HTML, CSS</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Databases</h3>
+        <ul>
+          <li>Microsoft SQL Server</li>
+          <li>MySQL, Oracle</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>App servers &amp; OS</h3>
+        <ul>
+          <li>JBoss, WebLogic, Tomcat, Nginx</li>
+          <li>RHEL, CentOS, Windows Server</li>
         </ul>
       </div>
     </div>
   </section>
 
   <section class="stage" id="certifications">
-    <h2>Certifications</h2>
+    <h2>Certifications &amp; education</h2>
     <div class="cert-row">
       <span class="cert-name">HashiCorp Certified: Terraform Associate (004)</span>
       <span class="cert-meta">2026</span>
+    </div>
+    <div class="cert-row">
+      <span class="cert-name">PG Diploma in Advanced Computing (PGDAC)</span>
+      <span class="cert-meta">2013</span>
+    </div>
+    <div class="cert-row">
+      <span class="cert-name">B.E., Computer Engineering — University of Mumbai</span>
+      <span class="cert-meta">2008 – 2012</span>
     </div>
   </section>
 
@@ -499,14 +557,14 @@
     <div class="contact-list">
       <a href="mailto:vishallaljeet2@gmail.com">vishallaljeet2@gmail.com <span class="k">EMAIL</span></a>
       <a href="https://www.linkedin.com/in/vishallaljeet786/" target="_blank" rel="noopener">linkedin.com/in/vishallaljeet786 <span class="k">LINKEDIN</span></a>
-      <a href="https://github.com/your-github-handle" target="_blank" rel="noopener">github.com/your-handle <span class="k">GITHUB</span></a>
+      <a href="https://github.com/vishallaljeet" target="_blank" rel="noopener">github.com/vishallaljeet <span class="k">GITHUB</span></a>
     </div>
   </section>
 
 </main>
 
 <footer class="wrap">
-  Calgary, AB · Built &amp; deployed on GitHub Pages
+  Canada · Built &amp; deployed on GitHub Pages
 </footer>
 
 </body>
