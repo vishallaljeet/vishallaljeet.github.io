@@ -20,7 +20,7 @@
     --max:760px;
     --spine-gap:28px;
   }
-
+ 
   *{box-sizing:border-box;}
   html{scroll-behavior:smooth;}
   body{
@@ -32,24 +32,24 @@
     line-height:1.6;
     -webkit-font-smoothing:antialiased;
   }
-
+ 
   @media (prefers-reduced-motion: reduce){
     html{scroll-behavior:auto;}
     *{animation-duration:0.001ms !important; transition-duration:0.001ms !important;}
   }
-
+ 
   a{color:var(--accent); text-decoration-thickness:1px; text-underline-offset:3px;}
   a:focus-visible, button:focus-visible{outline:2px solid var(--accent); outline-offset:3px;}
-
+ 
   h1,h2,h3{
     font-family:'Space Grotesk', sans-serif;
     font-weight:700;
     line-height:1.15;
     margin:0;
   }
-
+ 
   .wrap{max-width:var(--max); margin:0 auto; padding:0 24px;}
-
+ 
   /* ---------- nav ---------- */
   .nav{
     position:sticky; top:0; z-index:10;
@@ -77,7 +77,7 @@
   @media (max-width:600px){
     .nav ul{display:none;}
   }
-
+ 
   /* ---------- hero ---------- */
   .hero{padding:72px 0 56px;}
   .hero-photo{
@@ -133,7 +133,7 @@
   }
   .btn.primary:hover{background:var(--accent); border-color:var(--accent);}
   .btn.ghost:hover{background:var(--ink); color:var(--paper);}
-
+ 
   .location-line{
     margin-top:28px;
     font-family:'IBM Plex Mono', monospace;
@@ -147,7 +147,7 @@
     display:inline-block;
     flex-shrink:0;
   }
-
+ 
   /* ---------- pipeline stage layout ---------- */
   .stage{
     position:relative;
@@ -165,18 +165,18 @@
     border:2px solid var(--ink);
   }
   .stage:last-of-type{border-left:2px solid transparent;}
-
+ 
   .stage h2{
     font-size:22px;
     letter-spacing:-0.01em;
     margin-bottom:26px;
   }
-
+ 
   @media (max-width:600px){
     .stage{padding-left:26px; margin-left:2px;}
     .stage::before{left:-6px;}
   }
-
+ 
   /* ---------- experience ---------- */
   .role-block{margin-bottom:34px;}
   .role-block:last-child{margin-bottom:0;}
@@ -199,7 +199,7 @@
   }
   .role-block li{margin-bottom:6px;}
   .role-block li:last-child{margin-bottom:0;}
-
+ 
   .prior-roles{
     margin-top:30px;
     padding-top:24px;
@@ -220,7 +220,7 @@
   }
   .prior-row:last-child{border-bottom:none;}
   .prior-row .org{color:var(--muted);}
-
+ 
   /* ---------- projects ---------- */
   .project{
     border:1px solid var(--line);
@@ -249,7 +249,7 @@
     color:var(--muted);
     margin-top:12px;
   }
-
+ 
   /* ---------- skills ---------- */
   .skill-grid{
     display:grid;
@@ -272,7 +272,7 @@
     font-size:15px;
     padding:4px 0;
   }
-
+ 
   /* ---------- certifications ---------- */
   .cert-row{
     display:flex; align-items:baseline; justify-content:space-between;
@@ -287,7 +287,7 @@
     font-size:12.5px;
     color:var(--muted);
   }
-
+ 
   /* ---------- contact ---------- */
   .contact-list{display:flex; flex-direction:column; gap:10px;}
   .contact-list a{
@@ -304,7 +304,7 @@
     font-size:12.5px;
     color:var(--muted);
   }
-
+ 
   footer{
     padding:36px 0 60px calc(var(--spine-gap) + 20px);
     font-family:'IBM Plex Mono', monospace;
@@ -314,7 +314,7 @@
   @media (max-width:600px){
     footer{padding-left:26px;}
   }
-
+ 
   /* one deliberate load-in moment on the hero only */
   .hero > *{
     opacity:0;
@@ -333,7 +333,7 @@
 </style>
 </head>
 <body>
-
+ 
 <nav class="nav">
   <div class="wrap">
     <div class="name">Vishal Laljeet</div>
@@ -345,9 +345,9 @@
     </ul>
   </div>
 </nav>
-
+ 
 <main class="wrap">
-
+ 
   <section class="hero">
     <img class="hero-photo" src="profile.jpg" alt="Vishal Laljeet">
     <div class="kicker">Platform &amp; DevOps Engineering</div>
@@ -369,10 +369,10 @@
       Relocating to Canada — Canadian PR — available from October 2026
     </div>
   </section>
-
+ 
   <section class="stage" id="experience">
     <h2>Experience</h2>
-
+ 
     <div class="role-block">
       <div class="role-head">
         <div>
@@ -389,7 +389,7 @@
         <li>Improved a Java-based trading platform's build time across multiple regions from 80 minutes to ~5 minutes with a Gradle build cache node.</li>
       </ul>
     </div>
-
+ 
     <div class="role-block">
       <div class="role-head">
         <div>
@@ -404,7 +404,7 @@
         <li>Removed 30+ redundant servers through an infrastructure consolidation strategy, cutting infrastructure costs by 62%.</li>
       </ul>
     </div>
-
+ 
     <div class="role-block">
       <div class="role-head">
         <div>
@@ -419,7 +419,7 @@
         <li>Reduced system downtime by 30% via Blue-Green deployments and integrated Jira and Bitbucket into the Jenkins pipeline.</li>
       </ul>
     </div>
-
+ 
     <div class="prior-roles">
       <div class="label">Earlier</div>
       <div class="prior-row"><span>DevOps Engineer</span><span class="org">Propellum Infotech · Jun 2017 – Aug 2018</span></div>
@@ -427,10 +427,10 @@
       <div class="prior-row"><span>Software Engineer</span><span class="org">Saint-Gobain India · Jan 2014 – May 2015</span></div>
     </div>
   </section>
-
+ 
   <section class="stage" id="projects">
     <h2>Selected work</h2>
-
+ 
     <div class="project">
       <div class="project-head">
         <span class="project-title">Confluence Cloud MCP Server</span>
@@ -443,7 +443,7 @@
       <p>Extending the same pattern to GitLab and Jira to connect the rest of the platform toolchain to AI agents.</p>
       <div class="stack">Python · FastMCP · Confluence Cloud API · Claude Code</div>
     </div>
-
+ 
     <div class="project">
       <div class="project-head">
         <span class="project-title">Instinet → Nomura Platform Migration</span>
@@ -456,7 +456,7 @@
       <p>20+ applications migrated personally; 60+ teams enabled; meaningful reduction in licensing and infrastructure spend.</p>
       <div class="stack">GitLab · Nexus · Confluence · Prometheus · Grafana · OpenSearch</div>
     </div>
-
+ 
     <div class="project">
       <div class="project-head">
         <span class="project-title">GitLab Automation &amp; Containerization</span>
@@ -467,7 +467,7 @@
       <div class="stack">GitLab CI · Docker · Kubernetes · Helm</div>
     </div>
   </section>
-
+ 
   <section class="stage" id="skills">
     <h2>Skills</h2>
     <div class="skill-grid">
@@ -535,7 +535,7 @@
       </div>
     </div>
   </section>
-
+ 
   <section class="stage" id="certifications">
     <h2>Certifications &amp; education</h2>
     <div class="cert-row">
@@ -551,7 +551,7 @@
       <span class="cert-meta">2008 – 2012</span>
     </div>
   </section>
-
+ 
   <section class="stage" id="contact">
     <h2>Get in touch</h2>
     <div class="contact-list">
@@ -560,12 +560,13 @@
       <a href="https://github.com/vishallaljeet" target="_blank" rel="noopener">github.com/vishallaljeet <span class="k">GITHUB</span></a>
     </div>
   </section>
-
+ 
 </main>
-
+ 
 <footer class="wrap">
   Canada · Built &amp; deployed on GitHub Pages
 </footer>
-
+ 
 </body>
 </html>
+ 
